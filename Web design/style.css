@@ -1,0 +1,29 @@
+body {background-color: #11181f}
+h1 {color: white;
+    text-align: center;
+    font-family: verdana;
+   }
+h2 {color: white;
+    font-family: verdana;
+   }
+p {color: white;
+   font-family: verdana;
+   font-size: 20px;
+  }
+a {color: white;
+   font-family: verdana;
+   font-size: 20px;
+}
+
+header p {
+   display: inline;
+   margin-right: 1em;
+}
+
+#Current_page { color:grey; text-decoration: underline;}
+
+/*
+This is just some color palette stuff I'm looking at 
+dark blue = #1C2833
+darker blue = #11181f
+*/

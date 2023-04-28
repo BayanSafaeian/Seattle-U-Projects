@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+        <body>
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <header> 
+                <p><a onmousemove="removeUnderline(this)" onmouseleave="addUnderLine(this)" href="index.html">Home</a> </p>
+                <p id="Current_page">About Me</p>
+            </header>
+            <h1>About Me</h1>
+            <p>I'm currently a junior Computer science student.</p>
+        </body>
+
+        <script>
+            function removeUnderline(link){
+                link.style.textDecoration = "none"
+            }
+            
+            function addUnderLine(link){
+                link.style.textDecoration = "underline"
+            }
+        </script>
+</html>

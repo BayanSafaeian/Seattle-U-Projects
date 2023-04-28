@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+    </head>
+        <body>
+            <link rel="stylesheet" type="text/css" href="style.css" />
+            <header> 
+                <p id="Current_page"> Home </p>
+                <p><a onmousemove="removeUnderline(this)" onmouseleave="addUnderLine(this)" href="about me.html"> About Me</a> </p>
+            </header>
+            <h1>Bayan Safaeian</h1>
+            <h2>Resume site</h2>
+            <p>This is a site to host all my projects and share a bit about me.</p>
+            <p>I've tried making the links like the ones we have on Seattle U. Where the underlining of a link disappears when hovering over it.</p>
+        </body>
+
+        <script>
+            function removeUnderline(link){
+                link.style.textDecoration = "none"
+            }
+            
+            function addUnderLine(link){
+                link.style.textDecoration = "underline"
+            }
+        </script>
+</html>
